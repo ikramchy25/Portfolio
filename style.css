@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#main-nav {
+    background-color: #ADD8E6;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
+	color : white;
+	width: 100%;
+    height: 100vh;
+    background-image: url(./images/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+	padding : 20%;
+}
+
+.custom-col {
+    margin-top: 20%;
+}
+
+i {
+    color: #ADD8E6;
+}
+.services{
+	background : #ADD8E6;
+}       
+.img-hero {
+        
+    height: auto;
+        
+}
+img {
+    /* max-width: 100%; */
+}
+
+        
+.spacing {
+    margin-top:10%;
+}
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+.card-icon{
+    font-size: 4rem;
+}
+.block {
+    height: .3rem; width: 6rem;
+    background-color: #ADD8E6;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+#contact .form-control {
+    background-color: #4863A0;
+    border-color: var(--color-base);
+    color: #5CB3FF;
+}
+
+#contact .form-control:focus {
+    border-color: var(--color-brand);
+    box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+    color: var(--color-body);
+}
+
+#contact input.form-control {
+    height: 50px;
+}
+.contact {
+	
+	background : #ADD8E6;;
+	margin-top : 20%;
+}
+.contact .text-brand{
+	margin-top :15%;
+}
+
+        
+
+
